@@ -1,0 +1,5 @@
+.nav-disabled {
+  color: #aaa;
+  cursor: not-allowed;
+  text-decoration: none;
+}

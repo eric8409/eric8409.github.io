@@ -1,0 +1,11 @@
+<div class="home-container">
+  <h1>歡迎！您已成功登入。</h1>
+
+  <mat-chip-set aria-label="Navigation links" class="navigation-chips">
+    <a mat-chip color="primary" [routerLink]="['/products']" class="stylish-chip">商品</a>
+    <a mat-chip color="primary" [routerLink]="['/orders', order.id]" class="stylish-chip">訂單</a>
+  </mat-chip-set>
+
+  <!-- 登出按鈕 -->
+  <button mat-raised-button color="primary" (click)="onLogout()">登出</button>
+</div>
